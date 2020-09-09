@@ -1,2 +1,2 @@
-# ReponsivePortfolio
+# Portfolio
 CSS &amp; Bootstrap Homework
