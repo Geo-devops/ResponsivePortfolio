@@ -49,6 +49,9 @@ body {
   opacity: 75%;
   margin-top: 175px;
   text-align: center;
+  font-family: fantasy; 
+  font-weight: bold;
+  color: rebeccapurple;
 }
 .dropdown-content {
   display: none;
@@ -69,7 +72,7 @@ body {
 }
 
 .dropdown-content a:hover {
-  background-color: rgb(51, 196, 32);
+  background-color: rgb(121, 190, 185);
 }
 
 .dropdown:hover .dropdown-content {
