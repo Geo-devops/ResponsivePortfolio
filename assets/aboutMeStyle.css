@@ -3,35 +3,32 @@
   background: none;
   border: none;
 }
+
 body {
 width: 100%;
-background: url("https://miro.medium.com/max/2560/1*QphFTsRZieTJs5mfmUi_wg.jpeg");
+background: rgb(86, 145, 221);
 background-size: cover; 
 display: flex;
 justify-content: center;
-opacity: 65%;
 }
-.container {
+/* .container {
   font-family: Arial, Helvetica, sans-serif;
-}
+} */
 /* left off here... not sure why it is at the top  */
 .aboutHeader { 
   padding: 60px;
+  /* padding-top: 48px; */
   text-align: center;
   background: darkblue;
   color: white;
   font-size: 30px;
 }
 
-#header {
-width: 100%;
-color: #201f1f09;
-}
-
-
-
+.container {font-family: Georgia, 'Times New Roman', Times, serif;
+font-size: large;}
 .navbar {
 overflow: hidden;
+display: ;
 background-color: rgb(34, 34, 36);
 font-size: 16px;
 color: rgb(31, 29, 29);
@@ -76,3 +73,16 @@ text-align: right;
 
 .dropdown:hover .dropdown-content {
   display: block;
+}
+
+
+.summary {
+  background-color: white;
+  padding-top: 24px;
+  font-size: 14px;
+  font color: black;
+  
+}
+
+img { float: left;
+}
