@@ -27,9 +27,10 @@
 
 #navbar-Nav{
   width: 100%;
-  display: auto;
+  display: flex;
   margin-right: 0;
   text-align: right;
+  
 }
 
 
@@ -93,3 +94,4 @@ body {
 .row {
   display: flex;
 }
+
