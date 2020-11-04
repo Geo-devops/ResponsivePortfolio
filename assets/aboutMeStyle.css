@@ -91,7 +91,8 @@ img { float: left;
 
 .contact-information {
 
-  font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
     font-style: italic;
     font-size: large;
     color: black;
@@ -99,8 +100,12 @@ img { float: left;
     
 }
 
-/* .logo-images1, logo-images2{
-     display: inline-block;
+#contact {
+  background-color:rgb(13, 231, 231);
+}
+.logo-images1, .logo-images2{
+    display: inline-block;
+    align-items: center;
     
   
-} */
+}

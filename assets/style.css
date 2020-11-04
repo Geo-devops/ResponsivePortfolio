@@ -2,23 +2,12 @@
     background: none;
     border: none;
   }
-body {
-  width: 100%;
-  background: url("https://yalantis.com/uploads/ckeditor/pictures/2916/dribble_perfect.gif");
-  background-size: cover; 
-  display: flex;
-  justify-content: center;
-}
+
 .container {
     font-family: Arial, Helvetica, sans-serif;
   }
 
   
-#header {
-  width: 100%;
-  color: #201f1f09;
-}
-
 
 
 .navbar {
@@ -27,36 +16,30 @@ body {
   font-size: 16px;
   color: rgb(31, 29, 29);
   text-align: right;
-  display: block; 
-  margin-right: 0px;
+  display: block;
+  align-items: center;
   padding: 0px 0px;
   
 }
 .navbar a:hover {
-  background-color: rgb(241, 53, 232);
+  background-color: rgb(100, 61, 98);
 }
 
 #navbar-Nav{
   width: 100%;
-  display: block;
+  display: auto;
   margin-right: 0;
   text-align: right;
 }
 
 
-.jumbotron { 
-  background-color: turquoise;
-  opacity: 75%;
-  margin-top: 175px;
-  text-align: center;
-  font-family: fantasy; 
-  font-weight: bold;
-  color: rebeccapurple;
-}
+
+
+
 .dropdown-content {
   display: none;
   position: absolute;
-  background-color: rgb(233, 242, 243);
+  background-color: rgb(8, 53, 58);
   min-width: 160px;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
   z-index: 1;
@@ -79,3 +62,30 @@ body {
   display: block;
 }
 
+#header {
+  width: 100%;
+  color: #201f1f09;
+  align-items: center;
+}
+
+
+.jumbotron { 
+  background-color: turquoise;
+  opacity: 75%;
+  margin-top: 175px;
+  text-align: center;
+  font-family: fantasy; 
+  font-weight: bold;
+  color: rebeccapurple;
+  /* display: flex;
+  justify-content: center; */
+}
+
+body {
+  padding-left: 0px;
+  width: 100%;
+  background: url("https://yalantis.com/uploads/ckeditor/pictures/2916/dribble_perfect.gif");
+  background-size: cover; 
+  display: flex;
+  justify-content: center;
+}
